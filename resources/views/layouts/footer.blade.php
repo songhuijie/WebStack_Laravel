@@ -11,7 +11,7 @@
                 <strong>{{ env('APP_NAME') }}</strong>
             </a> design by
             <a href="https://github.com/hui-ho" target="_blank">
-                <strong>hui-ho</strong>
+                <strong>xxx</strong>
             </a>
             <span>{{ config('icp_record') }}</span>
             <!--  - Purchase for only <strong>23$</strong> -->

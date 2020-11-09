@@ -19,6 +19,7 @@ class CreateCategoriesTable extends Migration
             $table->integer('order')->default(0);
             $table->string('title', 50);
             $table->string('icon', 20);
+            $table->tinyInteger('is_show')->default(1);
             $table->timestamps();
         });
     }

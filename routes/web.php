@@ -13,3 +13,10 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/about', 'HomeController@about');
+Route::get('/cap', 'HomeController@cap');
+Route::post('/caps', 'HomeController@caps');
+
+
+Route::get('phpinfo',function(){
+   echo phpinfo();
+});

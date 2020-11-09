@@ -20,6 +20,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
+//
         return Admin::content(function (Content $content) {
             $content->header('分类管理');
             $content->body(Category::tree(function ($tree) {
@@ -77,6 +78,9 @@ class CategoryController extends Controller
             ->placeholder('不得超过50个字符');
         $form->icon('icon', '图标')
             ->default('fa-star-o')
+            ->rules('required|max:20');
+        $form->select('is_show', '图标')
+            ->options([0=>'隐藏',1=>'显示'])
             ->rules('required|max:20');
 
         $form->tools(function (Form\Tools $tools) {

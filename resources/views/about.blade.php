@@ -23,12 +23,12 @@
                 <div class="col-md-12">
                     <div class="panel panel-default">
                         <!-- 关于项目 -->
-                        <h4 class="text-gray">关于项目</h4>
+                        <h4 class="text-gray">关于项目4</h4>
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <blockquote>
-                                        <p>这是一个开源的网址导航网站项目，您可以拿来制作自己的网址导航，也可以做与导航无关的网站。</p>
+                                        <p>这是一个开源的网址导航网站项目</p>
                                         </br>
                                         <p>网站前台静态页面采用 <a href="http://viggoz.com/" target="_blank">viggoz</a> 的 <a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStack</a> 项目源码。</p>
                                         <p>如果对本项目有任何建议都可以发起 issue。</p>
@@ -59,7 +59,7 @@
                                             <br />
                                             <blockquote>
                                                 <p>
-                                                    这是一个公益项目，而且是<a href="https://github.com/hui-ho/WebStack-Laravel"> 开源 </a>的。你也可以拿来制作自己的网址导航。如果你有更好的想法，可以通过邮件与我联系，欢迎与我交流分享。
+                                                    这是一个公益项目，而且是<a href="https://github.com/hui-ho/WebStack-Laravel"> 开源 </a>的。联系人 hui-ho@outlook.com
                                                 </p>
                                             </blockquote>
                                         </div>
